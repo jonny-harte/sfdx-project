@@ -33,6 +33,9 @@ coverage/
 # Manifest
 manifest/
 
+# PMD cache
+.pmdCache
+
 # Salesforce cache
 .sf/
 .sfdx/
