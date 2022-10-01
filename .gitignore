@@ -30,6 +30,9 @@ coverage/
 # MacOS system files
 .DS_Store
 
+# Manifest
+manifest/
+
 # Salesforce cache
 .sf/
 .sfdx/
