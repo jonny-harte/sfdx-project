@@ -1,8 +1,5 @@
-**/lwc/**/*.css
-**/lwc/**/*.html
-**/lwc/**/*.json
-**/lwc/**/*.svg
-**/lwc/**/*.xml
+.sfdx
+
 **/aura/**/*.auradoc
 **/aura/**/*.cmp
 **/aura/**/*.css
@@ -13,4 +10,9 @@
 **/aura/**/*.tokens
 **/aura/**/*.xml
 **/aura/**/*.app
-.sfdx
+
+**/lwc/**/*.css
+**/lwc/**/*.html
+**/lwc/**/*.json
+**/lwc/**/*.svg
+**/lwc/**/*.xml
