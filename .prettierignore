@@ -8,3 +8,10 @@
 .vscode
 
 coverage/
+
+force-app/**/*.cmp
+force-app/**/*.component
+force-app/**/*.email
+force-app/**/*.json
+force-app/**/*.page
+force-app/**/*.xml
