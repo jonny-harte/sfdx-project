@@ -19,7 +19,9 @@
     "test:unit": "sfdx-lwc-jest",
     "test:unit:watch": "sfdx-lwc-jest --watch",
     "test:unit:debug": "sfdx-lwc-jest --debug",
-    "test:unit:coverage": "sfdx-lwc-jest --coverage"
+    "test:unit:coverage": "sfdx-lwc-jest --coverage",
+    "tracking:clear": "sfdx force:source:tracking:clear",
+    "tracking:reset": "sfdx force:source:tracking:reset"
   },
   "devDependencies": {
     "@lwc/eslint-plugin-lwc": "^1.1.2",
