@@ -5,6 +5,7 @@
     "**/.sfdx": true
   },
   "cSpell.ignoreWords": [
+    "auradoc",
     "ehthumbs",
     "esktop",
     "eslintcache",
