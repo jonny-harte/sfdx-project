@@ -5,6 +5,10 @@
   "description": "Salesforce App",
   "scripts": {
     "lint": "eslint **/{aura,lwc}/**",
+    "org:list": "sfdx force:org:list",
+    "org:pull": "sfdx force:source:pull -f",
+    "org:push": "sfdx force:source:push -f",
+    "org:status": "sfdx force:source:status",
     "postinstall": "husky install",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,email,html,js,json,md,page,trigger,xml,yaml,yml}\"",
