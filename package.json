@@ -13,6 +13,8 @@
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,email,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "prettier:verify": "prettier --list-different \"**/*.{cls,cmp,component,css,email,html,js,json,md,page,trigger,xml,yaml,yml}\"",
+    "retrieve:permission-set": "sfdx force:source:retrieve -m PermissionSet",
+    "retrieve:profile": "sfdx sfpowerkit:source:profile:retrieve --folder force-app --loglevel trace",
     "test": "npm run test:unit",
     "test:unit": "sfdx-lwc-jest",
     "test:unit:watch": "sfdx-lwc-jest --watch",
