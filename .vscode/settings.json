@@ -10,7 +10,11 @@
     "esktop",
     "eslintcache",
     "localdevserver",
+    "loglevel",
+    "precommit",
+    "sfdc",
     "sfpowerkit",
+    "soql",
     "staticresources"
   ]
 }
